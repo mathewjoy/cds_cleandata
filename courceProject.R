@@ -21,7 +21,7 @@ featureData[,2] <- as.character(featureData[,2])
 
 # Extract interesting data from the data freatures :mean,stddev
 featureShortList <- grep(".*mean.*|.*std.*", featureData[,2])
-j9<- grep(".*mean.*|.*std.*", featureData[,2])
+featureShortList.names.bkup <- featureData[featureShortList,2]
 featureShortList.names <- featureData[featureShortList,2]
 featureShortList.names = gsub('-mean', 'Mean', featureShortList.names)
 featureShortList.names = gsub('-std', 'Std', featureShortList.names)
