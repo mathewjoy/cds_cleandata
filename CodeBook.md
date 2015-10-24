@@ -1,7 +1,3 @@
-# Code Book for Course Project Tidy Data
-
-##Tidy Data - Field Description
-
 "1" "Subject: The subject who performed the activity - ranges 1 to 30"
 "2" "Activity: Activity Label.  There are 6 activieies"
 "3" "tBodyAccMeanX: Average on Feature tBodyAcc-mean()-X"
