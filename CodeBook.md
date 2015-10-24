@@ -1,3 +1,4 @@
+
 "1" "Subject: The subject who performed the activity - ranges 1 to 30"
 "2" "Activity: Activity Label.  There are 6 activieies"
 "3" "tBodyAccMeanX: Average on Feature tBodyAcc-mean()-X"
@@ -79,3 +80,4 @@
 "79" "fBodyBodyGyroJerkMagMean: Average on Feature fBodyBodyGyroJerkMag-mean()"
 "80" "fBodyBodyGyroJerkMagStd: Average on Feature fBodyBodyGyroJerkMag-std()"
 "81" "fBodyBodyGyroJerkMagMeanFreq: Average on Feature fBodyBodyGyroJerkMag-meanFreq()"
+
