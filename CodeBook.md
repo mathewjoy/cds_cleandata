@@ -1,8 +1,12 @@
 
 "1" "Subject: The subject who performed the activity - ranges 1 to 30"
+
 "2" "Activity: Activity Label.  There are 6 activieies"
+
 "3" "tBodyAccMeanX: Average on Feature tBodyAcc-mean()-X"
+
 "4" "tBodyAccMeanY: Average on Feature tBodyAcc-mean()-Y"
+
 "5" "tBodyAccMeanZ: Average on Feature tBodyAcc-mean()-Z"
 "6" "tBodyAccStdX: Average on Feature tBodyAcc-std()-X"
 "7" "tBodyAccStdY: Average on Feature tBodyAcc-std()-Y"
