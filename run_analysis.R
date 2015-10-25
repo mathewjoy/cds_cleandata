@@ -47,6 +47,7 @@ colnames(allData) <- c(featureShortList.names,"activity", "subject" )
 allData$activity <- factor(allData$activity, levels = activityLabelData[,1], labels = activityLabelData[,2])
 allData$subject <- as.factor(allData$subject)
 
+# melt the wide data table into key value pairs on columns names
 allData.melted <- melt(allData, id = c("subject", "activity"))
 allData.mean <- dcast(allData.melted, subject + activity ~ variable, mean)
 
