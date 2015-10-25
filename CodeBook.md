@@ -1,5 +1,9 @@
+# Tidy data Code Book
+## Identifiers 
 *  1 Subject: The subject who performed the activity - ranges 1 to 30
 *  2 Activity: Activity Label.  There are 6 activieies
+
+## Measurements aggregated on Mean.
 *  3 tBodyAccMeanX: Average on Feature tBodyAcc-mean()-X
 *  4 tBodyAccMeanY: Average on Feature tBodyAcc-mean()-Y
 *  5 tBodyAccMeanZ: Average on Feature tBodyAcc-mean()-Z
@@ -79,3 +83,12 @@
 *  79 fBodyBodyGyroJerkMagMean: Average on Feature fBodyBodyGyroJerkMag-mean()
 *  80 fBodyBodyGyroJerkMagStd: Average on Feature fBodyBodyGyroJerkMag-std()
 *  81 fBodyBodyGyroJerkMagMeanFreq: Average on Feature fBodyBodyGyroJerkMag-meanFreq()
+
+## Activity Labels
+
+* WALKING (1): subject was walking during the test
+* WALKING_UPSTAIRS (2): subject was walking up a staircase during the test
+* WALKING_DOWNSTAIRS (3): subject was walking down a staircase during the test
+* SITTING (4): subject was sitting during the test
+* STANDING (5): subject was standing during the test
+* LAYING (6): subject was laying down during the test
